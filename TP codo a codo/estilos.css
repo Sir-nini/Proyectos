@@ -1,0 +1,288 @@
+*{
+    font-family: Arial;
+}
+
+body{
+    width: 100%;
+    height: 3000px;
+    margin: 0;
+}
+
+header{
+    background-color: grey;
+    width: 100%;
+    height: 3%;
+}
+
+div.logo{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    float: left;
+    text-align: left;
+    color: white;
+}
+
+div.logo img{
+    height: 100px;
+    width: 200px;   
+}
+
+div.lista{
+    height: 100px;
+    width: 900px;
+    display: flex;
+    float: right;
+    text-align: right;
+}
+
+.lista a{
+    color: rgb(180, 180, 180);
+    font-size: 20px;
+    margin-top: 31px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+a.comprar{
+    color: rgb(137, 221, 10);
+}
+
+/* animacion de formato del texto del menu*/
+a:hover{
+    color: white;
+    font-weight: bolder;
+    transition:1s;
+}
+
+a.comprar:hover{
+    color: yellow;
+    font-weight: bolder;
+    transition: 1s;
+}
+
+div{
+    width: 100%;
+}
+
+div.p1{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(Imagenes/ba1.jpg);
+    height: 30.39%;
+    display: inline-block;
+    width: 100%;
+}
+
+div.texto1{
+    color: white;
+    text-align: right;
+    font-size: larger;
+    width: 50%;
+    position: relative;
+    right: -40%;
+    bottom: -40%;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+button.orador{
+    font-size: large;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    height: 50px;
+    width: 175px;;
+    border-radius: 10px;
+}
+
+button.comprar{
+    border-color: black;
+    font-size: large;
+    color: white;
+    background-color: rgb(131, 192, 39);
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+div.p2{
+    height: 30.3%;
+    width: 100%;
+}
+
+.oradores {
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloOradores{
+    text-align: center;
+    align-content: center;
+}
+
+.tarjetas{
+    margin-left: 210px;
+    width: 90vw;
+    display: flex;
+    text-align: center;
+}
+
+/* animacion de sombra en las tarjetas*/
+.tarjeta:hover {
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.tarjeta{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.contenidoEtiqueta{
+    width: 80%;
+}
+
+.iconos{
+    display: flex;
+    float: right;
+}
+
+.tarjeta p {
+    line-height: 2;
+    text-align: justify;
+}
+
+p.javaScript{
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+
+p.react{
+    margin-left: 5px;
+    background-color: rgb(0, 174, 255);
+    color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+    padding: 3px;
+}
+
+p.negocios{
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+    padding: 3px;
+}
+
+p.startUps{
+    margin-left: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+    padding: 3px;
+}
+
+.tarjetas img{
+    width: 100%;
+}
+
+div.p3{
+    height: 18.3%;
+    background-color: grey;
+    background-size: 50vw;
+    background-repeat: no-repeat;
+    background-image: url(Imagenes/honolulu.jpg);
+}
+
+div.texto2{
+    color: white;
+    text-align: left;
+    font-size: larger;
+    width: 47%;
+    position: relative;
+    right: -51%;
+    bottom: -20px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+/* animacion de sombra en boton "conoce mas"*/
+.texto2 button:hover {
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+div.texto3{
+    line-height: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+div.p4{
+    height: 15.01%;
+}
+
+.nm{
+    width: 350px;
+    height: 30px;
+    font-size: larger;
+    margin-left: 10px;
+    resize: none;
+}
+
+.encuesta{
+    width: 715px;
+    height: 150px;
+    margin-top: 10px;
+    font-size: 25px;
+    resize: none;
+}
+
+button.enviar{
+    color: white;
+    background-color: rgb(117, 180, 22);
+    width: 715px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+button.enviar:hover{
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+footer{
+    background-color: blue;
+    height: 3%;
+}
+
+div.lista2{
+    height: 100%;
+    font-size: larger;
+    text-align: center;
+    line-height: -10px;
+    line-height: 100px;
+}
+
+.lista2 a{
+    color: rgb(180, 180, 180);
+    font-size: 20px;
+    margin-right: 80px;
+    text-decoration: none;
+}
